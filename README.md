@@ -18,7 +18,8 @@ Here are the steps to get you started with the repo.
 * sdl2 ("brew install sdl2" on OSX)
 * qt5 ("brew install qt5" on OSX)
 * A github account
-More detailed instructions for each platform are included in the footer. Refer there if you are having issues.
+Note: We have included a ``.ruby-version`` file locked to 2.1.0, which you can change to any Ruby 2.x version if you don't have 2.1.0 installed  
+More detailed instructions for each platform are included in the footer. Refer there if you are having issues.  
 
 2. At Ryatta Group we use rbenv, and so we've included some optional elements - just skip them if you're using rvm or are not versioning your Ruby.
 
