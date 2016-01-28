@@ -13,15 +13,15 @@ We have provided a repository which mimics the setup we used last time, so it sh
 
 Here are the steps to get you started with the repo.
 
-1. For this workshop, you will need a laptop with the following:
-. Ruby 2.x
-. sdl2 ("brew install sdl2" on OSX)
-. qt5 ("brew install qt5" on OSX)
-. A github account
+*. For this workshop, you will need a laptop with the following:  
+. Ruby 2.x  
+. sdl2 ("brew install sdl2" on OSX)  
+. qt5 ("brew install qt5" on OSX)  
+. A github account  
 Note: We have included a ``.ruby-version`` file locked to 2.1.0, which you can change to any Ruby 2.x version if you don't have 2.1.0 installed  
 More detailed instructions for each platform are included in the footer. Refer there if you are having issues.  
 
-2. At Ryatta Group we use rbenv, and so we've included some optional elements - just skip them if you're using rvm or are not versioning your Ruby.
+*. At Ryatta Group we use rbenv, and so we've included some optional elements - just skip them if you're using rvm or are not versioning your Ruby.
 
 ```sh
 % git clone git@github.com:k00ka/speed-sprint.git
@@ -45,13 +45,13 @@ Use `bundle show [gemname]` to see where a bundled gem is installed.
 ```
 You are (almost) there!
 
-3. To test your machine:
+*. To test your machine:
 ```sh
 % ruby lib/hello.rb
 ```
 You should see a new window with the Hello, World message.
 
-4. If you're keen, have a look at the source to prepare.
+*. If you're keen, have a look at the source to prepare.
 
 ## Additional resources
 
