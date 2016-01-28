@@ -13,45 +13,45 @@ We have provided a repository which mimics the setup we used last time, so it sh
 
 Here are the steps to get you started with the repo.
 
-*. For this workshop, you will need a laptop with the following:  
-. Ruby 2.x  
-. sdl2 ("brew install sdl2" on OSX)  
-. qt5 ("brew install qt5" on OSX)  
-. A github account  
-Note: We have included a ``.ruby-version`` file locked to 2.1.0, which you can change to any Ruby 2.x version if you don't have 2.1.0 installed  
-More detailed instructions for each platform are included in the footer. Refer there if you are having issues.  
+1. For this workshop, you will need a laptop with the following:
+  - [x] Ruby 2.x  
+  - [x] sdl2 ("brew install sdl2" on OSX)  
+  - [x] qt5 ("brew install qt5" on OSX)  
+  - [x] A github account  
+  Note: We have included a ``.ruby-version`` file locked to 2.1.0, which you can change to any Ruby 2.x version if you don't have 2.1.0 installed  
+  More detailed instructions for each platform are included in the footer. Refer there if you are having issues.
 
-*. At Ryatta Group we use rbenv, and so we've included some optional elements - just skip them if you're using rvm or are not versioning your Ruby.
+1. At Ryatta Group we use rbenv, and so we've included some optional elements - just skip them if you're using rvm or are not versioning your Ruby.
 
-```sh
-% git clone git@github.com:k00ka/speed-sprint.git
-% cd speed-sprint
-% gem install bundler
-Fetching: bundler-1.7.4.gem (100%)
-Successfully installed bundler-1.7.4
-1 gem installed
-% bundle
-Fetching gem metadata from https://rubygems.org/.........
-Resolving dependencies...
-Installing rake 10.3.2
-...
-Using bundler 1.7.4
-Your bundle is complete!
-Use `bundle show [gemname]` to see where a bundled gem is installed.
-```
-######Note: if you use rbenv...
-```sh
-% rbenv rehash
-```
-You are (almost) there!
+  ```sh
+  % git clone git@github.com:k00ka/speed-sprint.git
+  % cd speed-sprint
+  % gem install bundler
+  Fetching: bundler-1.7.4.gem (100%)
+  Successfully installed bundler-1.7.4
+  1 gem installed
+  % bundle
+  Fetching gem metadata from https://rubygems.org/.........
+  Resolving dependencies...
+  Installing rake 10.3.2
+  ...
+  Using bundler 1.7.4
+  Your bundle is complete!
+  Use `bundle show [gemname]` to see where a bundled gem is installed.
+  ```
+  Note: if you use rbenv...
+  ```sh
+  % rbenv rehash
+  ```
+  You are (almost) there!
 
-*. To test your machine:
-```sh
-% ruby lib/hello.rb
-```
-You should see a new window with the Hello, World message.
+1. To test your machine:
+  ```sh
+  % ruby lib/hello.rb
+  ```
+  You should see a new window with the Hello, World message.
 
-*. If you're keen, have a look at the source to prepare.
+1. If you're keen, have a look at the source to prepare.
 
 ## Additional resources
 
