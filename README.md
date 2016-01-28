@@ -14,10 +14,10 @@ We have provided a repository which mimics the setup we used last time, so it sh
 Here are the steps to get you started with the repo.
 
 1. For this workshop, you will need a laptop with the following:
-* Ruby 2.x
-* sdl2 ("brew install sdl2" on OSX)
-* qt5 ("brew install qt5" on OSX)
-* A github account
+. Ruby 2.x
+. sdl2 ("brew install sdl2" on OSX)
+. qt5 ("brew install qt5" on OSX)
+. A github account
 Note: We have included a ``.ruby-version`` file locked to 2.1.0, which you can change to any Ruby 2.x version if you don't have 2.1.0 installed  
 More detailed instructions for each platform are included in the footer. Refer there if you are having issues.  
 
@@ -55,7 +55,7 @@ You should see a new window with the Hello, World message.
 
 ## Additional resources
 
-Additional instructions for your platform are here:
-Linux => https://github.com/gosu/gosu/wiki/Getting-Started-on-Linux
-OSX => https://github.com/gosu/gosu/wiki/Getting-Started-on-OS-X
-Windows => https://github.com/gosu/gosu/wiki/Getting-Started-on-OS-X
+Additional instructions for your platform are here:  
+Linux => https://github.com/gosu/gosu/wiki/Getting-Started-on-Linux  
+OSX => https://github.com/gosu/gosu/wiki/Getting-Started-on-OS-X  
+Windows => https://github.com/gosu/gosu/wiki/Getting-Started-on-OS-X  
