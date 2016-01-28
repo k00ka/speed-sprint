@@ -60,9 +60,14 @@ Linux => https://github.com/gosu/gosu/wiki/Getting-Started-on-Linux
 OSX => https://github.com/gosu/gosu/wiki/Getting-Started-on-OS-X  
 Windows => https://github.com/gosu/gosu/wiki/Getting-Started-on-OS-X  
 
-## The projects for Ruby Hack Night, January 28, 2016
+## Ruby Hack Night, January 28, 2016
+
+### The projects
 1. gosu-mario https://github.com/k00ka/gosu-mario
 2. gosu-scrolling-shooter https://github.com/k00ka/gosu-scrolling-shooter
 3. gosu-galaxian https://github.com/k00ka/gosu-galaxian
 4. gosu-typespeed https://github.com/k00ka/gosu-typespeed
 5. gosu-inception https://github.com/k00ka/gosu-inception
+
+## Team assignments
+![Team assignments](https://raw.githubusercontent.com/k00ka/speed-sprint/8e6e5cdcf1ce4bede9b10ae74abb8dc1762fec26/media/team-assignments.png)
