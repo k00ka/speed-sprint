@@ -1,4 +1,4 @@
-title: Introduce Remarks
+title: Speed Sprint
 name: inverse
 layout: true
 class: inverse
@@ -6,107 +6,103 @@ class: inverse
 ---
 class: center middle
 
-# Remarks
-A simple remark slides player.
+# Speed Sprint 
+Your first four weeks on the job...  
+...compressed into 2 hours  
+        OR  
+Context-switching ain't so easy.
 
 ---
-# What is remark
+class: middle
+## speed dat·ing  
+*noun*  
+an organized social activity in which people seeking romantic relationships have a series of short conversations with potential partners in order to determine whether there is mutual interest.
 
-**Remark** is a simple, in-browser, markdown-driven slideshow tool targeted at people who know their way around HTML and CSS, featuring:
-
- * Markdown formatting, with smart extensions
- * Automatic syntax highlighting, with optional language hinting
- * Slide scaling, thus similar appearance on all devices / resolutions
- * Touch support for smart phones and pads, i.e. swipe to navigate slides
- * Check out this remark slideshow for a brief introduction.
-
-Check out [this remark slideshow][^1] for a brief introduction.
-Check out <https://github.com/gnab/remark> for more details.
-
-[^1]: https://gnab.github.com/remark
+  
+    
+      
+  
+## speed sprin·t  
+*noun*  
+an organized social activity in which people seeking elite developer skills, *1337 skilz*, complete a series of short projects with like-minded partners in order to develop mutally interesting abilities.
 
 ---
-# What is remarks
+class: middle
 
-**Remarks** is a web application that making and playing remark slides online, featuring:
+# Why Speed Sprint?
 
- * Play remark slides online from gist or github repositories
- * Bookmarklet to play slides easily
- * Bookmarklet to preview slides in a popup window.
+**Speed Sprint** is a simulation of the real world:
+
+ * Limited resources (time, compute, $)
+ * Finite knowledge
+ * Vague specifications
+ * Unrealistic expectations
+ 
+---
+class: middle
+
+# What are we going to do?
+
+* Work on five new projects with a small team
+* Existing code, not necessarily *good* existing code
+* Tackle some user stories
+* Learn more about GOSU
+* Practice context-switching
 
 ---
-# Remarks in gist
+class: middle
 
-![Remarks in gist](gist.png)
+# Five teams
 
-.footnote[[View sample][^1]]
-
-[^1]: https://gist.github.com/greatghoul/5123482
-
----
-# Remarks in repo
-
-![Remarks in repo](repo.png)
-
-.footnote[[View sample][^1]]
-
-[^1]: https://github.com/greatghoul/slides/tree/master/google-oauth2-and-analytics-data-api
+1. Team DEF
+2. Team CLASS
+3. Team SELECT!
+4. Team COLLECT
+5. Team RESCUE
 
 ---
-# Set slides title
+class: middle
+# Sprint workflow (40 minutes)
 
-Remarks add some additional attributes in remark source:
+![workflow](https://raw.githubusercontent.com/k00ka/speed-sprint/efba98720cbb360615bf3fb03e89b036cc9e3321/media/workflow.png "Sprint")
+---
+class: middle
+# Sprint breakdown (40 minutes)
 
-    title: Introduce Remarks
-    name: inverse
-    layout: true
-    class: inverse
-
-in the first fieldset, `title` means the TITLE for slides.
+![breakdown](https://raw.githubusercontent.com/k00ka/speed-sprint/bfd5d31d1af916315733e90a8aaaff4e1d235805/media/pie.png "Breakdown")
+![legend](https://raw.githubusercontent.com/k00ka/speed-sprint/bfd5d31d1af916315733e90a8aaaff4e1d235805/media/legend.png "Legend")
 
 ---
-# Set slides theme
+class: middle
 
-Remarks will use **remark** official slide's stylesheet as default theme.
+# Gosu intro
 
-If you want to use your own, add theme config in meta attributes:
+* Gosu is a gem with 9 classes and around 100 methods
+* Load and draw sprites, tiles, fonts
+* Load and play sounds
+* Gather player input
+* Your game inherits from Gosu::Window
+* *#initialize* sets up for your game
+* *#show* starts the game loop
+* The game loop consists of these two calls:
+  * *#update* is called after each *tick* and should update your game model (user input, random events, physics)
+  * *#draw* is called whenever the model is updated and the screen needs refreshing
+* Your game needs to compute "delta" (milliseconds since last update) and use it in calculations to support smooth transitions
 
-    title: Introduce Remarks
-    theme: my-theme.css
-    name: inverse
-    layout: true
-    class: inverse
+Let's look at an example.
+---
+class: middle
 
-You can also use full url path under other domain.
-
-    theme: http://www.mydomain.com/static/mytheme.css
-
-Or, use a common theme in other directory.
-
-    theme: ../themes/my-theme.css
-
-Theme filename must be end with `.css`
+# The projects
+gosu-mario https://github.com/k00ka/gosu-mario  
+gosu-scrolling-shooter https://github.com/k00ka/gosu-scrolling-shooter  
+gosu-galaxian https://github.com/k00ka/gosu-galaxian  
+gosu-typespeed https://github.com/k00ka/gosu-typespeed  
+gosu-inception https://github.com/k00ka/gosu-inception  
 
 ---
-# Insert images host in github repo
+class: middle
 
-Images beside slides source in repo subfolders can be embedded easily.
+# Your assignments
 
-    /repo/path
-      /slides-folder
-        /slides.md
-        /picture1.png
-        /picture2.png
-
-`slides.md`
-
-    ![picture1](picture1.png)
-    ![picture2](picture2.png)
----
-name: last-page
-template: inverse
-
-## That's all folks (for now)!
-
-Slideshow created using [remark](https://github.com/gnab/remark) and [remarks](https://remarks.sinaapp.com)
-
+![Team assignments](https://raw.githubusercontent.com/k00ka/speed-sprint/ee89f240dcde24276ef93f31ad3327cbe2602006/media/team-assignments-smaller.png)
