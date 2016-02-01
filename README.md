@@ -62,6 +62,9 @@ Windows => https://github.com/gosu/gosu/wiki/Getting-Started-on-OS-X
 
 ## Ruby Hack Night, January 28, 2016
 
+### The slides
+http://remarks.sinaapp.com/repo/k00ka/speed-sprint/intro/#1
+
 ### The projects
 1. gosu-mario https://github.com/k00ka/gosu-mario
 2. gosu-scrolling-shooter https://github.com/k00ka/gosu-scrolling-shooter
