@@ -63,7 +63,7 @@ Windows => https://github.com/gosu/gosu/wiki/Getting-Started-on-OS-X
 ## Ruby Hack Night, January 28, 2016
 
 ### The slides
-http://remarks.sinaapp.com/repo/k00ka/speed-sprint/intro/#1
+http://remarks.sinaapp.com/repo/k00ka/speed-sprint/intro/#1  
 If the above link doesn't work for any reason, click here: https://github.com/k00ka/speed-sprint/blob/master/intro/slides.md
 
 ### The projects
