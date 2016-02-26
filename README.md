@@ -64,6 +64,7 @@ Windows => https://github.com/gosu/gosu/wiki/Getting-Started-on-OS-X
 
 ### The slides
 http://remarks.sinaapp.com/repo/k00ka/speed-sprint/intro/#1
+If the above link doesn't work for any reason, click here: https://github.com/k00ka/speed-sprint/blob/master/intro/slides.md
 
 ### The projects
 1. gosu-mario https://github.com/k00ka/gosu-mario
